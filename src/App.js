@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Homepage from './Homepage'
+import { Route, Switch, useHistory } from 'react-router-dom'
 
-function App() {
+const  App = () => {
   return (
     <div className="App">
-      <h1>My React App</h1>
-      <h2>Author: Gus</h2>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
