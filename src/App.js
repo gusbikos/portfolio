@@ -1,6 +1,6 @@
 import './App.css'
 import Homepage from './Homepage'
-import { Route, Switch, useHistory } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 const  App = () => {
   return (
