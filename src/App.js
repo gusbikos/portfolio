@@ -1,5 +1,5 @@
 import './App.css'
-import Homepage from './Homepage'
+import Homepage from './HomePage'
 import { Route, Switch } from 'react-router-dom'
 
 const  App = () => {
