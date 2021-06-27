@@ -1,9 +1,11 @@
 const HomePage = () => {
     return (
-        <div>
-        <h1> Hello</h1>
-        <h2>My name is Gus</h2>
-        </div>
+        <main>
+            <img  src={} alt="My Image"/>
+            <section>
+                <h1>Gus Bikos</h1>
+            </section>
+        </main>
     )
 }
 
