@@ -1,7 +1,14 @@
 import { NavLink } from 'react-router-dom'
+import { useState } from 'react'
 // import { SocialIcon } from 'react-social-icons'
 
 const NavBar = () => {
+    const [toggle, setToggle] = useState(false)
+
+    const handleToggle = () => {
+        setToggle(!toggle)
+    }
+
     return (
         <nav className="navbar">
             <div className="max-width">
