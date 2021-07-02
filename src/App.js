@@ -12,34 +12,16 @@ import Skills from './Skills'
 const  App = () => {
   return (
     <div className="App">
-      <NavBar
-        // fill this in
-      />
-        <main>
-          <Switch>
-              <Route
-                component={HomePage} path='/portfolio' 
-              />
-              <Route
-                component={AboutMe} path='/aboutme'
-              />
-              <Route
-                component={Blogs} path='/blogs'
-              />  
-              <Route
-                component={Contact} path='/contact'
-              />
-              {/* <Route
-                // component={Footer} come back to this
-              /> */}
-              <Route
-                component={Projects} path='/projects'
-              />
-              <Route
-                component={Skills} path='/skills'
-              />
-          </Switch>
-        </main>
+      <NavBar/>
+        <div className="portfolio">
+          <HomePage/>
+          <AboutMe/>
+          {/* <Blogs/>
+          <Contact/>
+          <Projects/>
+          <Skills/>
+          <Footer/> */}
+        </div>
     </div>
   )
 }

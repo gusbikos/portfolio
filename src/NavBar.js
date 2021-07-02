@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import { useState } from 'react'
 // import { SocialIcon } from 'react-social-icons'
 
@@ -26,34 +26,35 @@ const NavBar = () => {
                 <div className="logo"><a href="#">Portfo<span>lio</span></a></div>
                     <ul className="menu">
                         <li>
-                            <NavLink to='/portfolio'>
+                            <Link to='portfolio' activeClass="active" spy={true} smooth={true} duration={700}>
                                 Homepage
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink to='/aboutme'>
+                            <Link to='about' activeClass="active" spy={true} smooth={true} duration={700}>
                                 About Me
-                            </NavLink>
+                            </Link>
+                            {/* <Link to="aboutme"></Link> */}
                         </li>
                         <li>
-                            <NavLink to='/blogs'>
+                            <Link to='blogs' activeClass="active" spy={true} smooth={true} duration={700}>
                                 Blogs
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink to='/contact'>
+                            <Link to='contact' activeClass="active" spy={true} smooth={true} duration={700}>
                                 Reach out to me!
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink to='/projects'>
+                            <Link to='projects' activeClass="active" spy={true} smooth={true} duration={700}>
                                 Projects
-                            </NavLink>
+                            </Link>
                         </li>
                         <li>
-                            <NavLink to='/skills'>
+                            <Link to='skills' activeClass="active" spy={true} smooth={true} duration={700}>
                                 Technical Skills
-                            </NavLink>
+                            </Link>
                         </li>
                     </ul>
                 {/* <div>
@@ -63,34 +64,34 @@ const NavBar = () => {
                     <i className="fas fa-bars"/>
                         <ul className={ clickMenu ? 'navbar menu active' : 'navbar menu' }>
                             <li>
-                                <NavLink to='/portfolio'>
+                                <Link to='/portfolio'>
                                     Homepage
-                                </NavLink>
+                                </Link>
                             </li>
                             <li>
-                                <NavLink to='/aboutme'>
+                                <Link to='/about'>
                                     About Me
-                                </NavLink>
+                                </Link>
                             </li>
                             <li>
-                                <NavLink to='/blogs'>
+                                <Link to='/blogs'>
                                     Blogs
-                                </NavLink>
+                                </Link>
                             </li>
                             <li>
-                                <NavLink to='/contact'>
+                                <Link to='/contact'>
                                     Reach out to me!
-                                </NavLink>
+                                </Link>
                             </li>
                             <li>
-                                <NavLink to='/projects'>
+                                <Link to='/projects'>
                                     Projects
-                                </NavLink>
+                                </Link>
                             </li>
                             <li>
-                                <NavLink to='/skills'>
+                                <Link to='/skills'>
                                     Technical Skills
-                                </NavLink>
+                                </Link>
                             </li>
                         </ul>
                 </div>
