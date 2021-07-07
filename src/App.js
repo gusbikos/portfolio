@@ -8,6 +8,7 @@ import Footer from './Footer'
 import NavBar from './NavBar'
 import Projects from './Projects'
 import Skills from './Skills'
+import Services from './Services'
 
 const  App = () => {
   return (
@@ -16,6 +17,7 @@ const  App = () => {
         <div className="portfolio">
           <HomePage/>
           <AboutMe/>
+          <Services/>
           {/* <Blogs/>
           <Contact/>
           <Projects/>
