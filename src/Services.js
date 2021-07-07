@@ -1,9 +1,9 @@
 const Services = () => {
     return (
-        <div className="services" id="services">
+        <section className="services" id="services">
             <div className="max-width">
                 <h2 className="title">My services</h2>
-                <div className="services-content">
+                <div className="serv-content">
                     <div className="card">
                         <div className="box">
                             <i className="fas fa-paint-brush"></i>
@@ -14,7 +14,7 @@ const Services = () => {
                     <div className="card">
                         <div className="box">
                             <i className="fas fa-chart-line"></i>
-                            <div className="text">Developing</div>
+                            <div className="text">Testing and Debugging</div>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
