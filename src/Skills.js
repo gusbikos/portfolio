@@ -1,9 +1,47 @@
 const Skills = () => {
     return (
-        <div id="skills">
-            <h1> skillz</h1>
-            <h2>My name is Gus</h2>
-        </div>
+        <section className="skills" id="skills">
+            <div className="max-width">
+                <h2 className="title">My skills</h2>
+                <div className="skills-content">
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">HTML</div>
+                            <p>HTML IS GREAT</p>
+                        </div>
+                        <div className="text">CSS</div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">HTML</div>
+                            <p>HTML IS GREAT</p>
+                        </div>
+                        <div className="text">CSS</div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">HTML</div>
+                            <p>HTML IS GREAT</p>
+                        </div>
+                        <div className="text">CSS</div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">HTML</div>
+                            <p>HTML IS GREAT</p>
+                        </div>
+                        <div className="text">CSS</div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">HTML</div>
+                            <p>HTML IS GREAT</p>
+                        </div>
+                        <div className="text">CSS</div>
+                    </div>
+                </div>
+            </div>
+        </section>
     )
 }
 
