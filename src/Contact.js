@@ -16,7 +16,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="row">
-                                <i className="fas fa-marker-alt"></i>
+                                <i className="fas fa-map-marker-alt"></i>
                                 <div className="info">
                                     <div className="head">Location</div>
                                     <div className="sub-title">New York</div>
@@ -30,6 +30,28 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="column right">
+                        <div className="text">Message me</div>
+                        <form action="#">
+                            <div className="fields">
+                                <div className="field name">
+                                    <input type="text" placeholder="Name" required></input>
+                                </div>
+                                <div className="field email">
+                                    <input type="email" placeholder="Email" required></input>
+                                </div>
+                            </div>
+                            <div className="field">
+                                <input type="text" placeholder="Subject" required></input>
+                            </div>
+                            <div className="field textarea">
+                                <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
+                            </div>
+                            <div className="button">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
