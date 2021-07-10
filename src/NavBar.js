@@ -34,7 +34,6 @@ const NavBar = () => {
                             <Link to='about' activeClass="active" spy={true} smooth={true} duration={700}>
                                 About Me
                             </Link>
-                            {/* <Link to="aboutme"></Link> */}
                         </li>
                         <li>
                             <Link to='blogs' activeClass="active" spy={true} smooth={true} duration={700}>
@@ -64,32 +63,32 @@ const NavBar = () => {
                     <i className="fas fa-bars"/>
                         <ul className={ clickMenu ? 'navbar menu active' : 'navbar menu' }>
                             <li>
-                                <Link to='/portfolio'>
+                                <Link to='portfolio'  onClick={setClickMenu} activeClass="active" spy={true} smooth={true} duration={700}>
                                     Homepage
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/about'>
+                                <Link to='about' onClick={setClickMenu} activeClass="active" spy={true} smooth={true} duration={700}>
                                     About Me
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/blogs'>
+                                <Link to='blogs' onClick={setClickMenu} activeClass="active" spy={true} smooth={true} duration={700}>
                                     Blogs
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/contact'>
+                                <Link to='contact' onClick={setClickMenu} activeClass="active" spy={true} smooth={true} duration={700}>
                                     Reach out to me!
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/projects'>
+                                <Link to='projects' onClick={setClickMenu} activeClass="active" spy={true} smooth={true} duration={700}>
                                     Projects
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/skills'>
+                                <Link to='skills' onClick={setClickMenu} activeClass="active" spy={true} smooth={true} duration={700}>
                                     Technical Skills
                                 </Link>
                             </li>

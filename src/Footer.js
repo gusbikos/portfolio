@@ -1,9 +1,8 @@
 const Footer = () => {
     return (
-        <div>
-        <h1> footer</h1>
-        <h2>My name is Gus</h2>
-        </div>
+        <footer>
+            <span>Created By <a href="#">Gus Bikos</a> | <span className="far fa-copyright"></span>2021 All rights reserved.</span>
+        </footer>
     )
 }
 

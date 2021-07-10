@@ -1,4 +1,7 @@
+import TypeWriter from './TypeWriter'
+
 const HomePage = () => {
+
     return (
         <div>
             <div className="home" id="home">
