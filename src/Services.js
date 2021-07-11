@@ -14,7 +14,7 @@ const Services = () => {
                     <div className="card">
                         <div className="box">
                             <i className="fas fa-chart-line"></i>
-                            <div className="text">Testing and Debugging</div>
+                            <div className="text">Web Development</div>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
