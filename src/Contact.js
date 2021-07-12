@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Contact = () => {
     return (
         <section className="contact" id="contact">
@@ -49,7 +51,7 @@ const Contact = () => {
                                 <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
                             </div>
                             <div className="button">
-                                <button type="submit">Send Message</button>
+                                <button href="gusbikos@gmail.com">Send Message</button>
                             </div>
                         </form>
                     </div>
