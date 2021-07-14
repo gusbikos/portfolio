@@ -8,21 +8,21 @@ const Services = () => {
                         <div className="box">
                             <i className="fas fa-paint-brush"></i>
                             <div className="text">Web Design</div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p>Ability to create a well-designed web app with beautiful and interactive content</p>
                         </div>
                     </div>
                     <div className="card">
                         <div className="box">
                             <i className="fas fa-chart-line"></i>
                             <div className="text">Web Development</div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p>Full stack web development for front end and back end development. Can tackle any project big or small</p>
                         </div>
                     </div>
                     <div className="card">
                         <div className="box">
                             <i className="fas fa-code"></i>
                             <div className="text">Apps Design</div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p>Ability to create well-designed mobile apps with beautiful and interactive content</p>
                         </div>
                     </div>
                 </div>

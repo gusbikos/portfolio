@@ -1,3 +1,5 @@
+import JS from './JS.png'
+
 const Skills = () => {
     return (
         <section className="skills" id="skills">
@@ -7,37 +9,53 @@ const Skills = () => {
                     <div className="card">
                         <div className="box">
                             <div className="text">HTML</div>
-                            <p>HTML IS GREAT</p>
                         </div>
-                        <div className="text">CSS</div>
                     </div>
                     <div className="card">
                         <div className="box">
-                            <div className="text">HTML</div>
-                            <p>HTML IS GREAT</p>
+                            <div className="text">CSS</div>
                         </div>
-                        <div className="text">CSS</div>
                     </div>
                     <div className="card">
                         <div className="box">
-                            <div className="text">HTML</div>
-                            <p>HTML IS GREAT</p>
+                            <i src={JS}/>
+                            <div className="text">JavaScript</div>
                         </div>
-                        <div className="text">CSS</div>
                     </div>
                     <div className="card">
                         <div className="box">
-                            <div className="text">HTML</div>
-                            <p>HTML IS GREAT</p>
+                            <div className="text">Ruby</div>
                         </div>
-                        <div className="text">CSS</div>
                     </div>
                     <div className="card">
                         <div className="box">
-                            <div className="text">HTML</div>
-                            <p>HTML IS GREAT</p>
+                            <div className="text">Ruby on Rails</div>
                         </div>
-                        <div className="text">CSS</div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">React</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">Redux</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">PostgreSQL</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">Git</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">Python</div>
+                        </div>
                     </div>
                 </div>
             </div>

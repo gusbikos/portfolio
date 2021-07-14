@@ -2,15 +2,15 @@ import useTypewriter from "react-typewriter-hook"
 import { useState, useEffect, useRef } from "react"
 
 const typingTitles = [
-    "Full Stack Web Developer",
-    "Designer",
+    "a Full Stack Web Developer",
+    "a Designer",
     "Ready To Work With You"
 ]
 
 let index = 0
 
 const TypeWriter = () => {
-    const [titles, setTitles] = useState("Full Stack Web Developer")
+    const [titles, setTitles] = useState("a Full Stack Web Developer")
     const intervalRef = useRef({})
     const title = useTypewriter(titles)
 
@@ -30,3 +30,5 @@ const TypeWriter = () => {
         <span>I'm {title}</span>
     )
 }
+
+export default TypeWriter
