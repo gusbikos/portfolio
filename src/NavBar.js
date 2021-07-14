@@ -1,6 +1,5 @@
 import { Link } from 'react-scroll'
 import { useState } from 'react'
-// import { SocialIcon } from 'react-social-icons'
 
 const NavBar = () => {
     const [navBar, setNavBar] = useState(false)
@@ -56,9 +55,6 @@ const NavBar = () => {
                             </Link>
                         </li>
                     </ul>
-                {/* <div>
-                    <SocialIcon url='https://github.com/gusbikos' className='' target="_blank"/>
-                </div> */}
                 <div className="menu-btn" onClick={handleMenuClick}>
                     <i className="fas fa-bars"/>
                         <ul className={ clickMenu ? 'navbar menu active' : 'navbar menu' }>

@@ -1,5 +1,5 @@
 import Resume from './Gus Bikos SE Resume.pdf'
-
+import Me from './Me.JPG'
 
 const AboutMe = () => {
     return (
@@ -8,11 +8,11 @@ const AboutMe = () => {
                 <h2 className="title">About me</h2>
                 <div class="about-content">
                     <div class="column left">
-                        <img src="" alt=""/>
+                        <img src={Me} alt="mypic"/>
                     </div>
                     <div className="column right">
                         <div className="text">I'm Gus and I'm a <span>Developer</span></div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>I'm a Software Engineer with 1 years of experience.  Some of my hobbies include: Playing poker, competing in video games (FPS, and sports mostly), traveling, lifting weights, MMA, reading and studying programming related material, leetcoding, learning about new technologies related to programming, building pc's, watching a good movie, oh yeah and I love coffee!  </p>
                         <a href={Resume}>View Resume</a>
                     </div>
                 </div>

@@ -463,6 +463,12 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+footer .icon {
+  padding-left: 10px;
+  margin-left: 50px;
+  background-color: crimson;
+}
+
 /* Responsive media query start */
 
 @media (max-width: 1300px) {
