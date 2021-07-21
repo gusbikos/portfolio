@@ -12,7 +12,6 @@ const Footer = () => {
                 <SocialIcon url='https://twitter.com/GusBikos' bgColor className='icon' target="_blank"/>
                 <SocialIcon url='https://dev.to/gusbikos' bgColor className='icon' target="_blank"/>
             </span>
-            {/* <span className='react'>Built with React + Vanilla CSS</span> */}
         </footer>
     )
 }

@@ -14,8 +14,8 @@ const Services = () => {
                     <div className="card">
                         <div className="box">
                             <i className="fas fa-chart-line"></i>
-                            <div className="text">Web Development</div>
-                            <p>Full stack web development for front end and back end development. Can tackle any project big or small</p>
+                            <div className="text">Full Stack SE</div>
+                            <p>Full stack software engineer for front end and back end. Can tackle any project</p>
                         </div>
                     </div>
                     <div className="card">

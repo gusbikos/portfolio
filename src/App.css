@@ -35,21 +35,6 @@
   justify-content: space-between;
 }
 
-.navbar .logo a {
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
-}
-
-.navbar .logo a span {
-  color: crimson;
-  transition: all 0.3s ease;
-}
-
-.navbar.active .logo a span {
-  color: #fff;
-}
-
 .navbar .menu li {
   list-style: none;
   display: inline-block;
@@ -64,13 +49,40 @@
   transition: color 0.3s ease;
 }
 
-.navbar.active .menu li a:hover {
-  color: #fff;
-}
-
 .navbar .menu li a:hover {
   color: crimson;
+}
 
+.navbar .menu-btn i:hover {
+  color: crimson;
+}
+
+.navbar .icon {
+  background-color: grey;
+}
+
+.navbar .icon:hover {
+  background-color: crimson;
+}
+
+.menu-btn .navbar.menu.active li a:hover {
+  color: crimson;
+}
+
+.navbar.active .icon {
+  background: crimson;
+}
+
+.navbar.active i {
+  color: #111;
+}
+
+.navbar.active i:hover {
+  background: #111;
+}
+
+.navbar.active .menu li a:hover {
+  color: #fff;
 }
 
 /* Menu button styling */
@@ -80,6 +92,19 @@
   font-size: 23px;
   cursor: pointer;
   display: none;
+}
+
+.menu-btn .navbar i:hover {
+  color: #111;
+}
+
+.menu-btn .navbar.active i {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.menu-btn .navbar.active i:hover {
+  color: crimson;
 }
 
 /* Home section styling */
@@ -140,14 +165,15 @@ section {
   padding: 100px 0;
 }
 
-.about, .services, .skills, .contact, footer {
+.about, .services, .skills, .contact, .projects, footer {
   font-family: 'Poppins', sans-serif;
 }
 
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
-.contact .contact-content {
+.contact .contact-content,
+.projects .project-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -256,7 +282,8 @@ section .title::after {
 }
 
 .services .serv-content .card,
-.skills .skills-content .card {
+.skills .skills-content .card,
+.projects .project-content .card {
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
@@ -302,15 +329,9 @@ section .title::after {
   background: #fff;
 }
 
-/* .skills .skills-content .card {
-  width: calc(33% - 20px);
-  background: #222;
-  text-align: center;
-  border-radius: 6px;
-  padding: 20px 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-} */
+.skills .title::after {
+  content: "always learning";
+}
 
 .skills .skills-content .card:hover {
   background: crimson;
@@ -333,6 +354,54 @@ section .title::after {
   font-weight: 500;
   margin: 10px 0 7px 0;
   color: #fff;
+}
+
+/* Project section styling */
+
+.projects {
+  color: #fff;
+  background: #111;
+}
+
+.projects .title::before {
+  background: #fff;
+}
+
+.projects .title::after {
+  background: #111;
+  content: "recent projects";
+}
+
+.projects .project-content .card:hover {
+  background: crimson;
+}
+
+.projects .project-content .card .box {
+  transition: all 0.3s ease;
+}
+
+.projects .project-content .card:hover .box {
+  transform: scale(1.05);
+}
+
+.projects .project-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.projects h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.projects a {
+  color: crimson;
+  text-decoration: underline;
+}
+
+.projects a:hover {
+  text-decoration: none;
 }
 
 /* Contact section styling */
@@ -358,6 +427,7 @@ section .title::after {
 .contact .contact-content .left .icons {
   margin: 10px 0;
 }
+
 .contact .contact-content .row {
   display: flex;
   height: 65px;
@@ -464,8 +534,7 @@ footer span a:hover {
 }
 
 footer .react {
-  /* margin-left: 170px; */
-  justify-content: right;
+  justify-content: center;
 }
 
 footer .icon {
@@ -489,27 +558,15 @@ footer .icon:hover {
   }
 }
 
-@media (max-width: 1104px) {
-  .about .about-content .left img {
-    height: 350px;
-    width: 350px;
-  }
-  footer .icon {
-    margin-left: 80px;
-  }
-}
-
-@media (max-width: 947px) {
-  .max-width {
-    padding: 0 50px;
-  }
-}
-
-@media (max-width: 947px) {
+@media (max-width: 1150px) {
   .menu-btn {
     display: block;
     z-index: 999;
     color: #fff;
+  }
+  .menu-btn .navbar.active i {
+    color: #fff;
+    margin-left: 900px;
   }
   .navbar .menu {
     position: fixed;
@@ -533,6 +590,37 @@ footer .icon:hover {
     margin: 20px 0;
     font-size: 25px;
   }
+  footer .icon {
+    margin-left: 110px;
+  }
+}
+
+@media (max-width: 1104px) {
+  .about .about-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+  footer .icon {
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 1050px) {
+  footer .icon {
+    margin-left: 70px;
+  }
+  .menu-btn .navbar.active i {
+    margin-left: 900px;
+  }
+}
+
+@media (max-width: 947px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 947px) {
   .home .home-content .text-2 {
     font-size: 70px;
   }
@@ -565,13 +653,26 @@ footer .icon:hover {
     flex: 100%;
   }
   .services .serv-content .card,
-  .skills .skills-content .card {
+  .skills .skills-content .card,
+  .projects .project-content .card {
     width: calc(50% - 10px);
     margin-bottom: 20px;
   }
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+  }
+  .menu-btn .navbar.active i {
+    margin-left: 600px;
+  }
+  footer .react {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu-btn .navbar.active i {
+    margin-left: 500px;
   }
 }
 
@@ -589,8 +690,18 @@ footer .icon:hover {
     font-size: 20px;
   }
   .services .serv-content .card,
-  .skills .skills-content .card {
+  .skills .skills-content .card,
+  .projects .project-content .card {
     width: 100%;
+  }
+  .menu-btn .navbar.active i {
+    color: #fff;
+    align-items: center;
+    margin-left: 370px;
+    margin-bottom: 30px;
+  }
+  footer .react {
+    margin-left: 150px;
   }
 }
 
