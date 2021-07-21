@@ -57,7 +57,7 @@ const NavBar = () => {
                     </ul>
                 <div className="menu-btn" onClick={handleMenuClick}>
                     <i className="fas fa-bars"/>
-                        <ul className={ clickMenu ? 'navbar menu active' : 'navbar menu' }>
+                        <ul className={ clickMenu ? 'navbar menu ' : 'navbar menu active' }>
                             <li>
                                 <Link to='portfolio'  onClick={setClickMenu} activeClass="active" spy={true} smooth={true} duration={700}>
                                     Homepage
