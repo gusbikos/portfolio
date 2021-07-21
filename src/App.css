@@ -463,10 +463,19 @@ footer span a:hover {
   text-decoration: underline;
 }
 
+footer .react {
+  /* margin-left: 170px; */
+  justify-content: right;
+}
+
 footer .icon {
   padding-left: 10px;
-  margin-left: 50px;
+  margin-left: 150px;
   background-color: crimson;
+}
+
+footer .icon:hover {
+  background-color: #fff;
 }
 
 /* Responsive media query start */
@@ -475,12 +484,18 @@ footer .icon {
   .home .max-width {
     margin-left: 0px;
   }
+  footer .icon {
+    margin-left: 120px;
+  }
 }
 
 @media (max-width: 1104px) {
   .about .about-content .left img {
     height: 350px;
     width: 350px;
+  }
+  footer .icon {
+    margin-left: 80px;
   }
 }
 
@@ -534,10 +549,17 @@ footer .icon {
   .about .about-content .column {
     width: 100%;
   }
-  .about .about-content .left {
+  .about .about-content .left{
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  footer .icon {
+    margin-bottom: 15px;
   }
   .about .about-content .right {
     flex: 100%;

@@ -13,7 +13,6 @@ const HomePage = () => {
                         <div className="text-3">
                             <p> <TypeWriter /> </p>
                         </div>
-                        {/* <div className="text-3">And I'm a <span>Full Stack Web Developer</span></div> */}
                         <a href={Resume}>Hire me</a>
                     </div>
                 </div>
