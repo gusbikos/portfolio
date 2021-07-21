@@ -19,10 +19,10 @@ const  App = () => {
           <AboutMe/>
           <Services/>
           <Skills/>
+          <Projects/>
           <Contact/>
           <Footer/>
-          {/* <Blogs/>
-          <Projects/>*/}
+          {/* <Blogs/>*/}
         </div>
     </div>
   )
