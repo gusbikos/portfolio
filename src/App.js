@@ -1,6 +1,8 @@
 import './App.css'
+import { Route, Switch } from 'react-router-dom'
 import HomePage from './HomePage'
 import AboutMe from './Aboutme'
+import Blogs from './Blogs'
 import Contact from './Contact'
 import Footer from './Footer'
 import NavBar from './NavBar'
