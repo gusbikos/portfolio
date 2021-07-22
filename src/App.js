@@ -1,13 +1,6 @@
 import './App.css'
-<<<<<<< HEAD
-import { Route, Switch } from 'react-router-dom'
 import HomePage from './HomePage'
 import AboutMe from './Aboutme'
-import Blogs from './Blogs'
-=======
-import HomePage from './HomePage'
-import AboutMe from './Aboutme'
->>>>>>> parent of 6fce3c8 (Updates)
 import Contact from './Contact'
 import Footer from './Footer'
 import NavBar from './NavBar'
