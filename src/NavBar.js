@@ -24,7 +24,10 @@ const NavBar = () => {
     return (
         <nav className={ navBar ? 'navbar active' : 'navbar' }>
             <div className="max-width">
+<<<<<<< HEAD
                 {/* <div className="logo"><a href="#">Portfo<span>lio</span></a></div> */}
+=======
+>>>>>>> parent of 6fce3c8 (Updates)
                     <SocialIcon url='https://github.com/gusbikos' bgColor className='icon' target="_blank"/>
                     <SocialIcon url='https://www.linkedin.com/in/gus-bikos/' bgColor className='icon' target="_blank"/>
                     <SocialIcon url='https://twitter.com/GusBikos' bgColor className='icon' target="_blank"/>
