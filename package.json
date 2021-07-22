@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "homepage": "https://gusbikos.github.io/portfolio/",
-=======
-  "homepage": "http://www.gus-bikos.com/",
->>>>>>> parent of 6fce3c8 (Updates)
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
