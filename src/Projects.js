@@ -25,6 +25,12 @@ const Projects = () => {
                             <p>A CLI terminal application made for tourists in the NYC/CHI area to select a landmark  they would like to visit</p>
                         </div>
                     </div>
+                    <div className="card">
+                        <div className="box">
+                            <div className="text">Amazon Clone</div>
+                            <p>Amazon Clone with full E-commerce. Using Firebase Realtime Database and cloud functions to push orders to the database</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
